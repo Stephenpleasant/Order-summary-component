@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter&family=League+Spartan:wght@400;500&family=Lexend+Deca&family=Montserrat:wght@500&family=Mulish:wght@500&family=Outfit:wght@300&family=Overpass:ital,wght@0,300;1,300&family=Poppins:wght@200;400;600&family=Red+Hat+Display:ital@1&family=Roboto:ital,wght@0,500;1,500&family=Rubik&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter&family=League+Spartan:wght@400;500&family=Lexend+Deca&family=Montserrat:wght@500&family=Mulish:wght@500&family=Outfit:wght@300&family=Overpass:ital,wght@0,300;1,300&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500&family=Roboto:ital,wght@0,500;1,500&family=Rubik&family=Ubuntu&display=swap');
 *{
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 body{
     font-family: 'Red Hat Display';
     display: flex;
+    direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, hsl(225, 100%, 98%),hsl(224, 23%, 55%));
+    background: url(pattern-background-desktop.png), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
 }   
 
 .container{
@@ -48,6 +49,7 @@ p{
 }
 .subscribe h3{
     font-size: 0.8rem;
+    font-weight: 100;
     color: hsl(224, 23%, 55%);
 }
 .subscribe img{
